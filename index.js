@@ -1,5 +1,9 @@
 function power(number, pow) {
-	// write your code here
+	let sum = 1;
+	for (let i = 0; i < pow; i++) {
+		sum *= number;
+	}
+	return sum;
 }
 
 module.exports = power;
